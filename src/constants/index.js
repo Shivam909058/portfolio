@@ -35,6 +35,10 @@ export const navLinks = [
     title: "Work",
   },
   {
+    id: "resume",
+    title: "Resume",
+  },
+  {
     id: "contact",
     title: "Contact",
   },
@@ -65,6 +69,8 @@ let postgresql = "https://upload.wikimedia.org/wikipedia/commons/2/29/Postgresql
 let cpp = "https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg";
 let c_sharp = "https://upload.wikimedia.org/wikipedia/commons/0/0d/C_Sharp_wordmark.svg";
 let opencv = "https://upload.wikimedia.org/wikipedia/commons/3/32/OpenCV_Logo_with_text_svg_version.svg";
+let pytorch = "https://upload.wikimedia.org/wikipedia/commons/1/19/PyTorch_with_text_logo.svg";
+
 // Replace this URL with a valid one if the current one is broken
 //let streamlit = "https://upload.wikimedia.org/wikipedia/commons/8/84/Streamlit_logo.png";
 
@@ -190,7 +196,7 @@ const testimonials = [
 
 
 // Global Image Variables
-let langchainImage = "https://via.placeholder.com/150?text=LangChain+QA+Chatbot"; // Placeholder for LangChain-based QA Chatbot
+let langchainImage = "https://www.streamlinehq.com/icons/download/langchain--31088"; // Placeholder for LangChain-based QA Chatbot
 let researchPaperImage = "https://via.placeholder.com/150?text=Research+Paper+Analysis"; // Placeholder for Research Paper Analysis Tool
 let predictiveMaintenanceImage = "https://via.placeholder.com/150?text=Predictive+Maintenance"; // Placeholder for Predictive Maintenance System
 
@@ -214,12 +220,12 @@ const projects = [
       },
     ],
     image: langchainImage,
-    source_code_link: "https://github.com/your-repo/langchain-qa-chatbot",
+    source_code_link: "https://github.com/Shivam909058/document_Q-A",
   },
   {
-    name: "Research Paper Analysis Tool",
+    name: "Pneumonia Detection",
     description:
-        "A tool designed for analyzing research papers by simply entering the arXiv paper number. It provides summaries and allows users to ask questions about the paper's content, enhancing research efficiency.",
+        "Developed a deep learning model to detect pneumonia in X-ray images with 95% accuracy and recommended treatment for the patient with a chatbot interface.",
     tags: [
       {
         name: "arxiv",
@@ -235,12 +241,12 @@ const projects = [
       },
     ],
     image: researchPaperImage,
-    source_code_link: "https://github.com/your-repo/research-paper-analysis-tool",
+    source_code_link: "https://github.com/Shivam909058/minor_v2",
   },
   {
-    name: "Predictive Maintenance System",
+    name: "AI-Powered video call assistant",
     description:
-        "A predictive maintenance system for industrial equipment that leverages machine learning algorithms to predict failures before they occur. The system analyzes sensor data to forecast potential breakdowns and optimize maintenance schedules.",
+        "Developed an AI-powered video call assistant that uses natural language processing and machine learning to understand and respond to user queries, providing a personalized and efficient experience of the whole video call",
     tags: [
       {
         name: "machine-learning",
@@ -256,7 +262,7 @@ const projects = [
       },
     ],
     image: predictiveMaintenanceImage,
-    source_code_link: "https://github.com/your-repo/predictive-maintenance-system",
+    source_code_link: "https://github.com/Shivam909058/yoom-v2",
   },
 ];
 
