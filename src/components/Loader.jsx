@@ -2,6 +2,7 @@ import { Html, useProgress } from "@react-three/drei";
 
 const CanvasLoader = () => {
   const { progress } = useProgress();
+  
   return (
     <Html
       as='div'
@@ -11,6 +12,8 @@ const CanvasLoader = () => {
         justifyContent: "center",
         alignItems: "center",
         flexDirection: "column",
+        height: '100%',
+        backgroundColor: 'rgba(0,0,0,0.7)'
       }}
     >
       <span className='canvas-loader'></span>
@@ -24,6 +27,11 @@ const CanvasLoader = () => {
       >
         {progress.toFixed(2)}%
       </p>
+      {progress === 100 && (
+        <p style={{ color: "#F1F1F1", marginTop: 10 }}>
+          If model doesn't appear, please refresh the page
+        </p>
+      )}
     </Html>
   );
 };

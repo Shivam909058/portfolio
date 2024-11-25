@@ -18,7 +18,7 @@ const Resume = () => {
       <div className="flex flex-col items-center justify-center min-h-[400px]">
         <h2 className={styles.sectionHeadText}>Resume</h2>
         <p className={`${styles.sectionSubText} text-center mb-10`}>
-          Download my resume to learn more about my experience
+          Download my resume to Know more about me and my skills
         </p>
         
         <div className="flex gap-5">
